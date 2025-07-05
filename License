@@ -1,0 +1,20 @@
+
+---
+
+### 4. Publish the feature image
+
+Since this feature doesn’t require building extra OS or Python layers, you can publish a minimal image or use a very lightweight base image (or even an empty base).
+
+If you want, I can help you write a minimal Dockerfile to build and publish your feature for GHCR.
+
+---
+
+### 5. Usage in your existing project’s devcontainer
+
+```json
+{
+  "image": "your-existing-image:tag",
+  "features": {
+    "ghcr.io/forhad-h/devcontainers-python-features/fastapi-dev": "1"
+  }
+}

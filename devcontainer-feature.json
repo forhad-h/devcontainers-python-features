@@ -1,0 +1,21 @@
+{
+  "id": "fastapi-dev",
+  "version": "1.0.0",
+  "name": "FastAPI VS Code Extensions",
+  "description": "Provides VS Code extensions for FastAPI Python development.",
+  "options": {},
+  "installsAfter": [],
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "github.copilot",
+        "github.copilot-chat",
+        "ms-azuretools.vscode-containers",
+        "ms-python.black-formatter",
+        "ms-python.debugpy",
+        "ms-python.python",
+        "ms-python.vscode-pylance"
+      ]
+    }
+  }
+}
