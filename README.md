@@ -1,4 +1,4 @@
-# FastAPI VS Code Extensions Feature 
+# FastAPI VS Code Extensions Feature
 
 This devcontainer feature installs common VS Code extensions useful for FastAPI Python development.
 
